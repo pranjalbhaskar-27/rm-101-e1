@@ -1,7 +1,12 @@
 import React from "react";
 import styles from "./addTask.module.css";
+import { useState
+ } from "react";
 
 const AddTask = () => {
+  const [inp,setInp]=useState('')
+
+  
   // NOTE: do not delete `data-testid` key value pair
   return (
     <div className={styles.todoForm}>

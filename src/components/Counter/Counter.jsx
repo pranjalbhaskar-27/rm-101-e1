@@ -1,5 +1,7 @@
 import React from "react";
 import styles from "./counter.module.css";
+import { useState } from "react";
+
 
 const Counter = () => {
   // sample value to be replaced
