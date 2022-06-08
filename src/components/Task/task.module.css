@@ -1,3 +1,22 @@
 .task {
   /* Sample  */
+    border:1px solid red;
+    display: flex;
+    margin-bottom: 1%;
+}
+
+.taskTitle{
+  display: flex;
+  margin-right: auto;
+}
+
+.task>.removebtn{
+  border-color: transparent;
+  background-color: antiquewhite;
+  margin: 0.2%;
+}
+
+.taskDone {
+  text-decoration: line-through;
+  color: #bcb2b2;
 }

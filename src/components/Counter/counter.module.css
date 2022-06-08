@@ -1,3 +1,11 @@
 .counter {
   /* TODO */
+  display: flex;
+  justify-content: center;
+}
+
+.counter>button{
+  color: azure;
+  border-radius: 3px;
+  background-color: violet;
 }

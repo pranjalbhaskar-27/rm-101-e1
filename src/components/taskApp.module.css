@@ -1,3 +1,11 @@
 .taskApp {
   /* Sample */
+  width: 45%;
+}
+.container{
+  margin: auto;
+}
+.add-task-input{
+  background-color: blue;
+  height: 20px;
 }

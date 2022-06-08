@@ -1,3 +1,13 @@
 .addTask {
   /* Sample */
+  display: flex;
+  width: 100vw;
+  gap: 0.1%;
+}
+input{
+  width: 100%;
+  border-color: transparent;
+}
+.add-task-button{
+  border-color: transparent;
 }
